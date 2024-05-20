@@ -1,0 +1,19 @@
+
+:root {
+
+    --primary-color: #4F3D2C; /* DarkBrown */
+    --primary-color-hover:#6F5944;
+    --brown-010:#F9F5EC;
+    --brown-020:#F4EEE1;
+    --brown-030:#EDE5D4;
+    --brown-040:#e0d8c7;
+    --brown-080:#37291C;
+    --text-primary: #222222; /* Gray */
+    /* Other Colors */
+    --text-secondary: #ffc107; /* Yellow */
+    --success-color: #28a745; /* Green */
+    --error-color: #dc3545; /* Red */
+    /* Background Colors */
+    --background-color: #f8f9fa; /* Light Gray */
+    --card-background-color: #ffffff; /* White */
+  }

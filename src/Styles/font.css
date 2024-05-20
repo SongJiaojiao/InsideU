@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body,html{
+  font-family: "Averia Serif Libre", serif ;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1{
+    font-family: "Averia Serif Libre", serif ;
+    font-weight: 500;
+    font-style: normal;
+    size: 24px;
+}
+
+h2{
+    font-family: "Averia Serif Libre", serif ;
+    font-weight: 500;
+    font-style: normal;
+    size: 18px;
+}
