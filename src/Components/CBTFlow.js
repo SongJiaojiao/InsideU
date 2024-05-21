@@ -44,7 +44,7 @@ function CBTFlow() {
     const helpIdentify = async () => {
         setIsLoading(true);
         try {
-            const response = await fetch(`${serverDomain}/api/helpIdentify`, {
+            const response = await fetch(`${serverDomain}/helpIdentify`, {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'
@@ -77,7 +77,7 @@ function CBTFlow() {
     };
     const helpChallenge = async () => {
         try {
-            const response = await fetch(`${serverDomain}/api/helpChallenge`, {
+            const response = await fetch(`${serverDomain}/helpChallenge`, {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'
@@ -101,7 +101,7 @@ function CBTFlow() {
 
     const helpReframe = async () => {
         try {
-            const response = await fetch(`${serverDomain}/api/helpReframe`, {
+            const response = await fetch(`${serverDomain}/helpReframe`, {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'
